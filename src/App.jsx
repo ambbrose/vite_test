@@ -7,6 +7,7 @@ import FormGroup from '@mui/material/FormGroup';
 import FormControlLabel from '@mui/material/FormControlLabel';
 import Switch from '@mui/material/Switch';
 import Typography from '@mui/material/Typography';
+import { Link } from 'react-router-dom';
 
 const ThemeSwitch = styled(Switch)({
   width: 62,
@@ -81,6 +82,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more Pussy
       </p>
+
+      <Link to='/switch'>To Switch</Link>
 
       <FormGroup >
         <FormControlLabel
